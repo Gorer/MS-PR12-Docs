@@ -23,7 +23,7 @@ jobs:
         with:
           python-version: '3.11'
       - name: Install requirements
-        run: pip install pytest
+        run: pip install requests
       - name: Run tests
         run: pytest
 
